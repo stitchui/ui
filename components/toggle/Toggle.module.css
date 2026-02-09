@@ -1,0 +1,84 @@
+.container {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 9999px;
+  background: linear-gradient(to right, #14b8a6, #059669);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.small {
+  padding: 2px;
+}
+
+.medium {
+  padding: 4px;
+}
+
+.large {
+  padding: 6px;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  border-radius: 9999px;
+}
+
+.button {
+  position: relative;
+  z-index: 10;
+  border-radius: 9999px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.small .button {
+  padding: 4px 16px;
+  font-size: 0.75rem;
+}
+
+.medium .button {
+  padding: 6px 24px;
+  font-size: 0.75rem;
+}
+
+.large .button {
+  padding: 8px 32px;
+  font-size: 1rem;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.active {
+  color: #1f2937;
+}
+
+.inactive {
+  color: white;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  background: white;
+  border-radius: 9999px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: left 0.3s ease-in-out;
+}
+
+.sliderLeft {
+  left: 0;
+}
+
+.sliderRight {
+  left: 50%;
+}
