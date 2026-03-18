@@ -1,8 +1,0 @@
-The cards are structured well and the grouping of Entity, Products, and Risk Factors makes sense. One improvement we might consider is simplifying some of the graphic elements inside the cards like the divider lines and corner shapes, since they don’t necessarily add information and could add visual noise. If we rely more on spacing and typography, the key numbers like VaR and SVaR will stand out more and the cards may feel cleaner and easier to scan.
-
-
---
-
-The overall card layout is good, but it may be slightly over-styled—simplifying decorative elements like corner shapes and divider lines and relying more on spacing and typography could reduce visual noise and help key metrics like VaR and SVaR stand out more clearly.
-
---
